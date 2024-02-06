@@ -68,7 +68,4 @@ jobs:
       - name: Delete 404 page
         run: rm -rf ./out/404
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: out
+
