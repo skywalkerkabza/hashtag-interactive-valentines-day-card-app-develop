@@ -65,7 +65,6 @@ jobs:
       - name: Generate static files
         run: yarn export
 
-      - name: Delete 404 page
-        run: rm -rf ./out/404
+
 
 
